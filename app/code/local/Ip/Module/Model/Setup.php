@@ -33,7 +33,7 @@
 		tax/class_source_product
 */
 
-class Ip_Module_Setup extends Mage_Eav_Model_Entity_Setup
+class Ip_Module_Model_Setup extends Mage_Eav_Model_Entity_Setup
 {
 
 	public function getDefaultEntities()
