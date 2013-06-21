@@ -66,7 +66,8 @@ class Ip_Module_Model_Setup extends Mage_Eav_Model_Entity_Setup
 						'comparable'        => false,
 						'visible_on_front'  => true,
 						'visible_in_advanced_search' => false,
-						'unique'            => false
+						'unique'            => false,
+						'used_for_price_rules' => 0
 					)*/
 			   )
 		   ),
@@ -94,7 +95,8 @@ class Ip_Module_Model_Setup extends Mage_Eav_Model_Entity_Setup
 						'filterable'        => true,
 						'comparable'        => false,
 						'visible_on_front'  => false,
-						'unique'            => false
+						'unique'            => false,
+						'used_for_price_rules' => 0
 
 					)*/
 				)
