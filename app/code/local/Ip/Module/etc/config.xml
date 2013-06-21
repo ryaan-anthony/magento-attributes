@@ -11,26 +11,26 @@
                 <class>Ip_Module_Model</class>
             </module> 
         </models>
-		<resources>
-			<module_setup>
-				<setup>
-					<module>Ip_Module</module>
-					<class>Ip_Module_Model_Setup</class>
-				</setup>				
-				<connection>
-					<use>core_setup</use>
-				</connection>
-			</module_setup>
-			<module_write>
-				<connection>
-					<use>core_write</use>
-				</connection>
-			</module_write>
-			<module_read>
-				<connection>
-					<use>core_read</use>
-				</connection>
-			</module_read>
-		</resources>
+        <resources>
+            <module_setup>
+                <setup>
+                    <module>Ip_Module</module>
+                    <class>Ip_Module_Model_Setup</class>
+                </setup>                
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </module_setup>
+            <module_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </module_write>
+            <module_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </module_read>
+        </resources>
     </global>
 </config>
